@@ -34,7 +34,7 @@ func (h *Handler) NotFound(c response.Context, msg ...string) {
 	h.Fail(c, response.ErrNotFound, m)
 }
 
-// BadRequest 返回 400 响应
+// BadRequest 返回 400 响应 minor comment refresh
 func (h *Handler) BadRequest(c response.Context, msg ...string) {
 	m := "Bad Request"
 	if len(msg) > 0 && msg[0] != "" {
