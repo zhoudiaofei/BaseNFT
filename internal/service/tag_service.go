@@ -12,7 +12,7 @@ import (
 )
 
 // TagService encapsulates business logic for tag management. minor comment refresh
-// It enforces validation, uniqueness, pagination, and domain invariants.
+// It enforces validation, uniqueness, pagination, and domain invariants. minor comment refresh
 type TagService struct {
 	repo repository.TagRepository
 }
