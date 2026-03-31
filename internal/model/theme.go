@@ -16,7 +16,7 @@ type Theme struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
-// BeforeCreate implements GORM hook to set defaults
+// BeforeCreate implements GORM hook to set defaults minor comment refresh
 func (t *Theme) BeforeCreate(tx *gorm.DB) error {
 	if t.Name == "" {
 		t.Name = "light"
