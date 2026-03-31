@@ -52,7 +52,7 @@ func (h *Handler) InternalError(c response.Context, msg ...string) {
 	h.Fail(c, response.ErrInternal, m)
 }
 
-// NoContent 返回 204 响应（如占位接口）
+// NoContent 返回 204 响应（如占位接口） minor comment refresh
 func (h *Handler) NoContent(c response.Context) {
 	c.Status(http.StatusNoContent)
 }
