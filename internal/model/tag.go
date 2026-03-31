@@ -8,7 +8,7 @@ import (
 
 // Tag represents a content tag entity. minor comment refresh
 // It maps to the `tags` table in the database. minor comment refresh
-// PROMPT-F78CD1-000080: lightweight, RESTful-ready, with minimal required fields.
+// PROMPT-F78CD1-000080: lightweight, RESTful-ready, with minimal required fields. minor comment refresh
 type Tag struct {
 	ID        uint      `gorm:"primaryKey;autoIncrement" json:"id"`
 	Name      string    `gorm:"size:64;not null;uniqueIndex" json:"name"`
