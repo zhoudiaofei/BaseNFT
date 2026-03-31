@@ -10,7 +10,7 @@ import (
 // Handler 基类，封装统一响应逻辑 minor comment refresh
 type Handler struct{}
 
-// Success 返回标准成功响应
+// Success 返回标准成功响应 minor comment refresh
 func (h *Handler) Success(c response.Context, data interface{}, msg ...string) {
 	resp := response.Success(data)
 	if len(msg) > 0 && msg[0] != "" {
