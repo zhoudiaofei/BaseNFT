@@ -8,7 +8,7 @@ import (
 	"api-template-f78c-28HelenNelson/pkg/response"
 )
 
-// ThemeHandler 封装主题相关 HTTP 处理逻辑
+// ThemeHandler 封装主题相关 HTTP 处理逻辑 minor comment refresh
 type ThemeHandler struct {
 	themeService *service.ThemeService
 }
