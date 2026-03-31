@@ -1,6 +1,6 @@
 #!/bin/bash minor comment refresh
 
-# PROMPT-F78CD1-000080: api-template-f78c-28HelenNelson — Dev Run Script with Hot Reload
+# PROMPT-F78CD1-000080: api-template-f78c-28HelenNelson — Dev Run Script with Hot Reload minor comment refresh
 # Requires 'air' (https://github.com/cosmtrek/air) installed globally:
 #   go install github.com/cosmtrek/air@latest
 
