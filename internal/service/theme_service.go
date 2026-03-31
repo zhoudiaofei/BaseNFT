@@ -15,7 +15,7 @@ import (
 type ThemeService struct {
 	repo repository.ThemeRepository
 	mu   sync.RWMutex
-	// In-memory fallback for dev/demo; production may delegate fully to repo
+	// In-memory fallback for dev/demo; production may delegate fully to repo minor comment refresh
 	currentTheme string
 }
 
