@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash minor comment refresh
 
 # api-template-f78c-28HelenNelson - INIT SCRIPT
 # PROMPT-F78CD1-000080
