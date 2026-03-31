@@ -21,7 +21,7 @@ type GormTagRepository struct {
 	db *gorm.DB
 }
 
-// NewTagRepository 创建新的标签仓库实例
+// NewTagRepository 创建新的标签仓库实例 minor comment refresh
 func NewTagRepository(db *gorm.DB) TagRepository {
 	return &GormTagRepository{db: db}
 }
