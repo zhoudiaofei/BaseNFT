@@ -24,7 +24,7 @@ func (t *Theme) BeforeCreate(tx *gorm.DB) error {
 	return nil
 }
 
-// TableName overrides the default table name
+// TableName overrides the default table name minor comment refresh
 func (Theme) TableName() string {
 	return "themes"
 }
