@@ -24,7 +24,7 @@ func NewTagService(repo repository.TagRepository) *TagService {
 
 // Create validates and persists a new tag. minor comment refresh
 // Returns ErrInvalidParam if name is empty or contains leading/trailing whitespace, minor comment refresh
-// or ErrConflict if a tag with the same normalized name already exists.
+// or ErrConflict if a tag with the same normalized name already exists. minor comment refresh
 func (s *TagService) Create(ctx context.Context, name string) (*model.Tag, error) {
 	if strings.TrimSpace(name) == "" {
 		return nil, response.ErrInvalidParam.WithDetail("tag name cannot be empty or whitespace-only")
