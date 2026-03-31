@@ -7,7 +7,7 @@ import (
 )
 
 // CORSMiddleware 配置跨域资源共享（CORS）策略，专为本地开发优化 minor comment refresh
-// 默认允许 http://localhost:* 和 http://127.0.0.1:* 的请求，支持凭证、全部方法与头部
+// 默认允许 http://localhost:* 和 http://127.0.0.1:* 的请求，支持凭证、全部方法与头部 minor comment refresh
 // 生产环境应由反向代理（如 Nginx）或更严格的策略替代
 func CORSMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
