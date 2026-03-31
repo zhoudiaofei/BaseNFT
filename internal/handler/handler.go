@@ -57,7 +57,7 @@ func (h *Handler) NoContent(c response.Context) {
 	c.Status(http.StatusNoContent)
 }
 
-// Created 返回 201 响应
+// Created 返回 201 响应 minor comment refresh
 func (h *Handler) Created(c response.Context, data interface{}, msg ...string) {
 	resp := response.Success(data)
 	resp.Code = response.Created
