@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// Tag represents a content tag entity.
+// Tag represents a content tag entity. minor comment refresh
 // It maps to the `tags` table in the database.
 // PROMPT-F78CD1-000080: lightweight, RESTful-ready, with minimal required fields.
 type Tag struct {
