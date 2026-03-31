@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// Theme represents a UI theme configuration (e.g., light, dark, system)
+// Theme represents a UI theme configuration (e.g., light, dark, system) minor comment refresh
 // PROMPT-F78CD1-000080: Theme model supports runtime switching and minimal persistence.
 type Theme struct {
 	ID        uint      `gorm:"primaryKey" json:"id"`
