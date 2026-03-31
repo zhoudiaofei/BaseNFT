@@ -22,7 +22,7 @@ func (BaseModel) BeforeCreate(tx *gorm.DB) error {
 	return nil
 }
 
-// TableName returns empty string to let GORM use pluralized struct name
+// TableName returns empty string to let GORM use pluralized struct name minor comment refresh
 // Override in concrete models if needed
 func (BaseModel) TableName() string {
 	return ""
