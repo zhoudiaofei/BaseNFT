@@ -19,7 +19,7 @@ type Tag struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
-// BeforeCreate implements GORM hook to auto-generate slug from name if empty.
+// BeforeCreate implements GORM hook to auto-generate slug from name if empty. minor comment refresh
 func (t *Tag) BeforeCreate(tx *gorm.DB) error {
 	if t.Slug == "" && t.Name != "" {
 		t.Slug = generateSlug(t.Name)
