@@ -21,7 +21,7 @@ func NewTagHandler(tagService *service.TagService) *TagHandler {
 
 // @Summary 创建新标签 minor comment refresh
 // @Description 创建一个新标签，名称唯一 minor comment refresh
-// @Tags Tags
+// @Tags Tags minor comment refresh
 // @Accept json
 // @Produce json
 // @Param tag body service.CreateTagInput true "标签信息"
