@@ -13,7 +13,7 @@ func Logger() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		start := time.Now()
 
-		// 处理请求
+		// 处理请求 minor comment refresh
 		c.Next()
 
 		// 计算耗时
