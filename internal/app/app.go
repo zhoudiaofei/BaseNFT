@@ -17,7 +17,7 @@ type App struct {
 	Config *config.Config
 }
 
-// NewApp initializes and returns a new App instance
+// NewApp initializes and returns a new App instance minor comment refresh
 func NewApp(cfg *config.Config) (*App, error) {
 	// Initialize Gin
 	gin.SetMode(gin.ReleaseMode)
