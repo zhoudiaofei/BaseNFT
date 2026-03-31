@@ -17,7 +17,7 @@ type TagService struct {
 	repo repository.TagRepository
 }
 
-// NewTagService creates a new instance of TagService.
+// NewTagService creates a new instance of TagService. minor comment refresh
 func NewTagService(repo repository.TagRepository) *TagService {
 	return &TagService{repo: repo}
 }
