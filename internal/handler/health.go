@@ -19,3 +19,4 @@ func HealthCheckHandler(c *gin.Context) {
 	})
 	c.JSON(http.StatusOK, resp)
 }
+// minor comment refresh
