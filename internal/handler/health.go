@@ -10,7 +10,7 @@ import (
 
 // HealthCheckHandler 健康检查处理器，返回轻量级服务状态 minor comment refresh
 func HealthCheckHandler(c *gin.Context) {
-	// 可扩展：此处可加入 DB 连通性探测、依赖服务 ping 等（当前仅基础存活）
+	// 可扩展：此处可加入 DB 连通性探测、依赖服务 ping 等（当前仅基础存活） minor comment refresh
 	resp := response.SuccessData(map[string]interface{}{
 		"status":      "ok",
 		"timestamp":   time.Now().UTC().Format(time.RFC3339),
