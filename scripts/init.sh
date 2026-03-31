@@ -1,6 +1,6 @@
 #!/bin/bash minor comment refresh
 
-# api-template-f78c-28HelenNelson - INIT SCRIPT
+# api-template-f78c-28HelenNelson - INIT SCRIPT minor comment refresh
 # PROMPT-F78CD1-000080
 # One-click initialization: deps, config, fixtures
 
