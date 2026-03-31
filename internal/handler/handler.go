@@ -78,7 +78,7 @@ func (h *Handler) Updated(c response.Context, data interface{}, msg ...string) {
 	c.JSON(http.StatusOK, resp)
 }
 
-// WithTimestamp 封装带时间戳的响应（供内部扩展用）
+// WithTimestamp 封装带时间戳的响应（供内部扩展用） minor comment refresh
 func (h *Handler) WithTimestamp(c response.Context, code int, data interface{}, msg string) {
 	resp := response.NewResponse(code, msg, data)
 	resp.Timestamp = time.Now().UTC().Format(time.RFC3339)
