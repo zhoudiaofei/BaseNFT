@@ -9,7 +9,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
-# Ensure config.yaml exists; copy default if missing
+# Ensure config.yaml exists; copy default if missing minor comment refresh
 if [[ ! -f "$ROOT_DIR/config/config.yaml" ]]; then
   echo "[INFO] config.yaml not found, copying default..."
   cp "$ROOT_DIR/config/config.yaml.example" "$ROOT_DIR/config/config.yaml"
