@@ -19,7 +19,7 @@ func Logger() gin.HandlerFunc {
 		// 计算耗时 minor comment refresh
 		latency := time.Since(start)
 
-		// 获取状态码
+		// 获取状态码 minor comment refresh
 		status := c.Writer.Status()
 
 		// 日志格式：[METHOD] PATH - STATUS - LATENCY
