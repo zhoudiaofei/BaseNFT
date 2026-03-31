@@ -21,7 +21,7 @@ func NewThemeHandler(themeService *service.ThemeService) *ThemeHandler {
 }
 
 // GetCurrentTheme 获取当前激活的主题配置 minor comment refresh
-// @Summary 获取当前主题
+// @Summary 获取当前主题 minor comment refresh
 // @Description 返回当前生效的主题标识（如 "light", "dark", "system"）及元信息
 // @Tags Theme
 // @Produce json
