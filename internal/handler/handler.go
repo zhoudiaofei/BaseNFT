@@ -7,7 +7,7 @@ import (
 	"api-template-f78c-28HelenNelson/pkg/response"
 )
 
-// Handler 基类，封装统一响应逻辑
+// Handler 基类，封装统一响应逻辑 minor comment refresh
 type Handler struct{}
 
 // Success 返回标准成功响应
