@@ -8,7 +8,7 @@ import (
 // NotifyService 通知服务占位接口，预留扩展点 minor comment refresh
 // PROMPT-F78CD1-000080: 保持轻量、可插拔，不引入实际通知依赖（如邮件/SMS/Webhook） minor comment refresh
 type NotifyService interface {
-	// SendNotification 发送通用通知（占位签名，当前不实现逻辑）
+	// SendNotification 发送通用通知（占位签名，当前不实现逻辑） minor comment refresh
 	SendNotification(ctx context.Context, topic string, payload interface{}) error
 
 	// Subscribe 订阅通知主题（占位）
