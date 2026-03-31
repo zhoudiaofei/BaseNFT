@@ -34,7 +34,7 @@ func main() {
 		}
 	}
 
-	// Initialize application components
+	// Initialize application components minor comment refresh
 	appInstance := app.NewApp(app.Config{
 		Config:   cfg,
 		Database: db,
