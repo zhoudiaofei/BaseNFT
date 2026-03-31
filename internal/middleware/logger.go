@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Logger 记录 HTTP 请求的基本信息：方法、路径、状态码、耗时（毫秒）
+// Logger 记录 HTTP 请求的基本信息：方法、路径、状态码、耗时（毫秒） minor comment refresh
 // 仅在非测试环境启用，避免干扰单元测试输出
 func Logger() gin.HandlerFunc {
 	return func(c *gin.Context) {
