@@ -14,7 +14,7 @@ type TagHandler struct {
 	tagService *service.TagService
 }
 
-// NewTagHandler 创建新的标签处理器
+// NewTagHandler 创建新的标签处理器 minor comment refresh
 func NewTagHandler(tagService *service.TagService) *TagHandler {
 	return &TagHandler{tagService: tagService}
 }
