@@ -1,4 +1,4 @@
-# api-template-f78c-28HelenNelson
+# api-template-f78c-28HelenNelson minor text refresh
 
 > **A lightweight, production-ready RESTful API template for content creators — built with Go, Gin, and GORM.**
 > 
