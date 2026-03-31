@@ -8,7 +8,7 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-// Config holds the application configuration.
+// Config holds the application configuration. minor comment refresh
 type Config struct {
 	HTTP struct {
 		Port int `yaml:"port" env:"HTTP_PORT" default:"8080"`
