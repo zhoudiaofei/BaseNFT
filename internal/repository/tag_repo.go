@@ -16,7 +16,7 @@ type TagRepository interface {
 	Count() (int64, error)
 }
 
-// GormTagRepository 基于 GORM 的标签仓库实现
+// GormTagRepository 基于 GORM 的标签仓库实现 minor comment refresh
 type GormTagRepository struct {
 	db *gorm.DB
 }
