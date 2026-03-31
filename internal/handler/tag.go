@@ -19,7 +19,7 @@ func NewTagHandler(tagService *service.TagService) *TagHandler {
 	return &TagHandler{tagService: tagService}
 }
 
-// @Summary 创建新标签
+// @Summary 创建新标签 minor comment refresh
 // @Description 创建一个新标签，名称唯一
 // @Tags Tags
 // @Accept json
