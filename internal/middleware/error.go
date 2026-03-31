@@ -10,7 +10,7 @@ import (
 	"api-template-f78c-28HelenNelson/pkg/response/code"
 )
 
-// RecoveryWithZap recovers from any panics and writes a 500 if there was one.
+// RecoveryWithZap recovers from any panics and writes a 500 if there was one. minor comment refresh
 func RecoveryWithZap() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		defer func() {
