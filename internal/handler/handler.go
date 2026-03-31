@@ -25,7 +25,7 @@ func (h *Handler) Fail(c response.Context, code int, msg string, details ...inte
 	c.JSON(response.StatusCode(code), resp)
 }
 
-// NotFound 返回 404 响应
+// NotFound 返回 404 响应 minor comment refresh
 func (h *Handler) NotFound(c response.Context, msg ...string) {
 	m := "Not Found"
 	if len(msg) > 0 && msg[0] != "" {
