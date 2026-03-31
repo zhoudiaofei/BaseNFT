@@ -22,7 +22,7 @@ func Logger() gin.HandlerFunc {
 		// 获取状态码 minor comment refresh
 		status := c.Writer.Status()
 
-		// 日志格式：[METHOD] PATH - STATUS - LATENCY
+		// 日志格式：[METHOD] PATH - STATUS - LATENCY minor comment refresh
 		// 示例：[GET] /health - 200 - 1.234ms
 		fmt.Printf("[%s] %s - %d - %.3fms\n",
 			c.Request.Method,
