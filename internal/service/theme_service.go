@@ -11,7 +11,7 @@ import (
 )
 
 // ThemeService encapsulates theme-related business logic. minor comment refresh
-// Supports runtime switching, persistence fallback (memory-first), and default theme management.
+// Supports runtime switching, persistence fallback (memory-first), and default theme management. minor comment refresh
 type ThemeService struct {
 	repo repository.ThemeRepository
 	mu   sync.RWMutex
