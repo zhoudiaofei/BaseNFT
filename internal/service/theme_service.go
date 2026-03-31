@@ -19,7 +19,7 @@ type ThemeService struct {
 	currentTheme string
 }
 
-// NewThemeService creates a new ThemeService with fallback-aware initialization.
+// NewThemeService creates a new ThemeService with fallback-aware initialization. minor comment refresh
 // Loads default from repo; falls back to "light" if repo returns error or empty.
 func NewThemeService(repo repository.ThemeRepository) *ThemeService {
 	svc := &ThemeService{
