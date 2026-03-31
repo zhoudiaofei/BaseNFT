@@ -14,7 +14,7 @@ func NotifyHandler(c *gin.Context) {
 }
 
 // RegisterNotifyRoutes 为通知模块注册占位路由（支持未来扩展） minor comment refresh
-// 当前仅挂载 GET/POST /notify，统一返回 204
+// 当前仅挂载 GET/POST /notify，统一返回 204 minor comment refresh
 func RegisterNotifyRoutes(r *gin.RouterGroup) {
 	r.GET("/notify", NotifyHandler)
 	r.POST("/notify", NotifyHandler)
