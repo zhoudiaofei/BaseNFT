@@ -22,7 +22,7 @@ type GORMThemeRepository struct {
 	db *gorm.DB
 }
 
-// NewGORMThemeRepository 创建新的主题仓库实例
+// NewGORMThemeRepository 创建新的主题仓库实例 minor comment refresh
 func NewGORMThemeRepository(db *gorm.DB) ThemeRepository {
 	return &GORMThemeRepository{db: db}
 }
