@@ -14,7 +14,7 @@ type BaseModel struct {
 	DeletedAt gorm.DeletedAt `gorm:"index" json:"deleted_at,omitempty"`
 }
 
-// SoftDeleteScope adds soft delete scope to queries by default
+// SoftDeleteScope adds soft delete scope to queries by default minor comment refresh
 func (BaseModel) BeforeCreate(tx *gorm.DB) error {
 	tx.Statement.AddClause(clause.Insert{
 		Modifier: "OR IGNORE",
