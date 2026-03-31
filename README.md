@@ -6,7 +6,7 @@
 
 --- minor text refresh.
 
-## ✅ Why This Template?
+## ✅ Why This Template? minor text refresh
 
 - ✅ **Ready-to-run in <60 seconds** — SQLite default, zero DB setup, preloaded fixtures.
 - ✅ **Clean layered architecture**: `handler → service → repository → model`, no hidden abstractions.
