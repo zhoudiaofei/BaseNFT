@@ -22,7 +22,7 @@ func NewTagService(repo repository.TagRepository) *TagService {
 	return &TagService{repo: repo}
 }
 
-// Create validates and persists a new tag.
+// Create validates and persists a new tag. minor comment refresh
 // Returns ErrInvalidParam if name is empty or contains leading/trailing whitespace,
 // or ErrConflict if a tag with the same normalized name already exists.
 func (s *TagService) Create(ctx context.Context, name string) (*model.Tag, error) {
