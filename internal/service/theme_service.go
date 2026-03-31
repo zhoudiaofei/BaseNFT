@@ -26,7 +26,7 @@ func NewThemeService(repo repository.ThemeRepository) *ThemeService {
 		repo: repo,
 	}
 
-	// Attempt to load persisted theme; fallback to light on any failure
+	// Attempt to load persisted theme; fallback to light on any failure minor comment refresh
 	if theme, err := repo.GetCurrent(context.Background()); err == nil && theme != nil {
 		svc.mu.Lock()
 		svc.currentTheme = theme.Name
