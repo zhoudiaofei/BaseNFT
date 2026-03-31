@@ -19,7 +19,7 @@ type App struct {
 
 // NewApp initializes and returns a new App instance minor comment refresh
 func NewApp(cfg *config.Config) (*App, error) {
-	// Initialize Gin
+	// Initialize Gin minor comment refresh
 	gin.SetMode(gin.ReleaseMode)
 	if cfg.App.Debug {
 		gin.SetMode(gin.DebugMode)
