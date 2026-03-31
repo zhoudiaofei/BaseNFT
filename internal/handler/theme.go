@@ -13,7 +13,7 @@ type ThemeHandler struct {
 	themeService *service.ThemeService
 }
 
-// NewThemeHandler 创建新的 ThemeHandler 实例
+// NewThemeHandler 创建新的 ThemeHandler 实例 minor comment refresh
 func NewThemeHandler(themeService *service.ThemeService) *ThemeHandler {
 	return &ThemeHandler{
 		themeService: themeService,
