@@ -43,7 +43,7 @@ func (h *Handler) BadRequest(c response.Context, msg ...string) {
 	h.Fail(c, response.ErrInvalidParam, m)
 }
 
-// InternalError 返回 500 响应（非 panic 场景）
+// InternalError 返回 500 响应（非 panic 场景） minor comment refresh
 func (h *Handler) InternalError(c response.Context, msg ...string) {
 	m := "Internal Server Error"
 	if len(msg) > 0 && msg[0] != "" {
