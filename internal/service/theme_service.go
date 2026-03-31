@@ -10,7 +10,7 @@ import (
 	"api-template-f78c-28HelenNelson/pkg/response"
 )
 
-// ThemeService encapsulates theme-related business logic.
+// ThemeService encapsulates theme-related business logic. minor comment refresh
 // Supports runtime switching, persistence fallback (memory-first), and default theme management.
 type ThemeService struct {
 	repo repository.ThemeRepository
