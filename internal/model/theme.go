@@ -7,7 +7,7 @@ import (
 )
 
 // Theme represents a UI theme configuration (e.g., light, dark, system) minor comment refresh
-// PROMPT-F78CD1-000080: Theme model supports runtime switching and minimal persistence.
+// PROMPT-F78CD1-000080: Theme model supports runtime switching and minimal persistence. minor comment refresh
 type Theme struct {
 	ID        uint      `gorm:"primaryKey" json:"id"`
 	Name      string    `gorm:"size:32;uniqueIndex;not null" json:"name"` // e.g. "light", "dark", "system"
