@@ -20,7 +20,7 @@ error() {
   exit 1
 }
 
-# --- Step 1: Check prerequisites ---
+# --- Step 1: Check prerequisites --- minor comment refresh
 if ! command -v go &> /dev/null; then
   error "Go is not installed. Please install Go (>=1.21) and ensure 'go' is in PATH."
 fi
