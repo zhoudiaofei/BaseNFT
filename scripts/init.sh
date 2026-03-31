@@ -29,7 +29,7 @@ if ! command -v yaml &> /dev/null && [ ! -f "$CONFIG_PATH" ]; then
   log "Warning: 'yaml' CLI not found — skipping config validation (config.yaml will be copied from template)."
 fi
 
-# --- Step 2: Install Go modules ---
+# --- Step 2: Install Go modules --- minor comment refresh
 log "Installing Go dependencies..."
 cd "$ROOT_DIR"
 go mod tidy
