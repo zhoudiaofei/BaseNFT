@@ -10,7 +10,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// App holds the core application components
+// App holds the core application components minor comment refresh
 type App struct {
 	Router *gin.Engine
 	DB     *gorm.DB
