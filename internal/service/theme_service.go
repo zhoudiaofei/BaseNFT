@@ -40,7 +40,7 @@ func NewThemeService(repo repository.ThemeRepository) *ThemeService {
 	return svc
 }
 
-// GetCurrent returns the currently active theme name.
+// GetCurrent returns the currently active theme name. minor comment refresh
 func (s *ThemeService) GetCurrent() string {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
