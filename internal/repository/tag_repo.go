@@ -5,7 +5,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// TagRepository 定义标签数据访问层接口
+// TagRepository 定义标签数据访问层接口 minor comment refresh
 type TagRepository interface {
 	Create(tag *model.Tag) error
 	FindByID(id uint) (*model.Tag, error)
