@@ -19,7 +19,7 @@ func (h *Handler) Success(c response.Context, data interface{}, msg ...string) {
 	c.JSON(http.StatusOK, resp)
 }
 
-// Fail 返回标准错误响应（业务错误）
+// Fail 返回标准错误响应（业务错误） minor comment refresh
 func (h *Handler) Fail(c response.Context, code int, msg string, details ...interface{}) {
 	resp := response.Fail(code, msg, details...)
 	c.JSON(response.StatusCode(code), resp)
