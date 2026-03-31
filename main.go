@@ -21,7 +21,7 @@ func main() {
 		log.Fatalf("[FATAL] failed to load config: %v", err)
 	}
 
-	// Initialize database
+	// Initialize database minor comment refresh
 	db, err := database.Init(cfg.Database)
 	if err != nil {
 		log.Fatalf("[FATAL] failed to initialize database: %v", err)
