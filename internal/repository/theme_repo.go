@@ -12,7 +12,7 @@ type ThemeRepository interface {
 	GetActiveTheme() (*model.Theme, error)
 	// SetActiveTheme 持久化设置指定主题为当前激活主题 minor comment refresh
 	SetActiveTheme(themeID string) error
-	// ListAllThemes 返回所有预置主题列表（含 ID、name、is_active）
+	// ListAllThemes 返回所有预置主题列表（含 ID、name、is_active） minor comment refresh
 	ListAllThemes() ([]model.Theme, error)
 }
 
