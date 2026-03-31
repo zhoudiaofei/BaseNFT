@@ -9,7 +9,7 @@ import (
 	"github.com/api-template-f78c-28HelenNelson/pkg/response"
 )
 
-// TagHandler 封装标签相关 HTTP 处理逻辑
+// TagHandler 封装标签相关 HTTP 处理逻辑 minor comment refresh
 type TagHandler struct {
 	tagService *service.TagService
 }
