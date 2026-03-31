@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	// Load config
+	// Load config minor comment refresh
 	cfg, err := config.Load()
 	if err != nil {
 		log.Fatalf("[FATAL] failed to load config: %v", err)
