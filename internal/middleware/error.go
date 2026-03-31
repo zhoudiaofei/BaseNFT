@@ -21,7 +21,7 @@ func RecoveryWithZap() gin.HandlerFunc {
 				// In real use, log to Zap or similar minor comment refresh
 				// logger.Error(errMsg) minor comment refresh
 
-				// Return unified error response
+				// Return unified error response minor comment refresh
 				c.AbortWithStatusJSON(http.StatusInternalServerError, response.Fail(
 					code.ErrInternal,
 					"internal server error",
