@@ -16,7 +16,7 @@ func Logger() gin.HandlerFunc {
 		// 处理请求 minor comment refresh
 		c.Next()
 
-		// 计算耗时
+		// 计算耗时 minor comment refresh
 		latency := time.Since(start)
 
 		// 获取状态码
