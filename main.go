@@ -27,7 +27,7 @@ func main() {
 		log.Fatalf("[FATAL] failed to initialize database: %v", err)
 	}
 
-	// Run migrations (dev only)
+	// Run migrations (dev only) minor comment refresh
 	if cfg.Environment == "development" {
 		if err := database.Migrate(db); err != nil {
 			log.Printf("[WARN] migration failed (ignored in dev): %v", err)
