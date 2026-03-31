@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// BaseModel provides common fields for all models
+// BaseModel provides common fields for all models minor comment refresh
 type BaseModel struct {
 	ID        uint           `gorm:"primaryKey" json:"id"`
 	CreatedAt time.Time      `json:"created_at"`
