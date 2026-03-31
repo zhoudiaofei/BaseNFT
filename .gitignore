@@ -1,0 +1,64 @@
+# Go generated and binary files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.test
+
+# Go build cache and binaries
+gocache/
+bin/
+dist/
+build/
+
+# Go module cache
+pkg/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Data fixtures — optional override: keep in repo by default, but allow local overrides
+data/fixtures/*.json
+!data/fixtures/
+!data/fixtures/tags.json
+!data/fixtures/themes.json
+
+# Configuration overrides
+config/config.local.yaml
+
+# Docker and build artifacts
+docker-compose.override.yml
+.dockerignore
+Dockerfile.dev
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage.out
+
+# Air hot-reload config
+.air
+
+# Generated files
+internal/model/generated.go

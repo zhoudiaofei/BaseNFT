@@ -1,0 +1,43 @@
+app:
+  name: "api-template-f78c-28HelenNelson"
+  env: "development"
+  version: "0.1.0"
+  prompt_id: "PROMPT-F78CD1-000080"
+
+http:
+  port: 8080
+  read_timeout: 30
+  write_timeout: 30
+  idle_timeout: 60
+
+log:
+  level: "debug"
+  format: "console" # console or json
+
+database:
+  driver: "sqlite"
+  dsn: "./data/app.db"
+  max_open_conns: 25
+  max_idle_conns: 25
+  conn_max_lifetime: 60
+
+# Optional PostgreSQL fallback (uncomment to use)
+# database:
+#   driver: "postgres"
+#   dsn: "host=localhost port=5432 user=api password=api dbname=api sslmode=disable"
+
+features:
+  enable_fixtures: true
+  enable_cors: true
+  enable_health_check: true
+  enable_theme_persistence: false # if false, theme state is in-memory only
+
+# Notification module placeholder — no config required yet
+notify:
+  enabled: false
+  provider: "none"
+
+# Theme defaults
+theme:
+  default: "light"
+  allowed: ["light", "dark", "system"]

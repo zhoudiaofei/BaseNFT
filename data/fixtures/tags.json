@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Go",
+    "slug": "go",
+    "description": "The Go programming language",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Gin",
+    "slug": "gin",
+    "description": "A high-performance HTTP web framework for Go",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "GORM",
+    "slug": "gorm",
+    "description": "The fantastic ORM library for Golang, aims to be developer friendly",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "RESTful",
+    "slug": "restful",
+    "description": "Architectural style for designing networked applications",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "API Template",
+    "slug": "api-template",
+    "description": "Lightweight, production-ready Go API starter with layered architecture",
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z"
+  }
+]

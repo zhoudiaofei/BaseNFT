@@ -1,0 +1,32 @@
+[
+  {
+    "id": "light",
+    "name": "Light Mode",
+    "description": "Bright, high-contrast theme for daytime use",
+    "primary_color": "#4F46E5",
+    "background_color": "#FFFFFF",
+    "text_color": "#1E293B",
+    "is_default": true,
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "dark",
+    "name": "Dark Mode",
+    "description": "Low-light optimized theme with reduced eye strain",
+    "primary_color": "#818CF8",
+    "background_color": "#0F172A",
+    "text_color": "#F1F5F9",
+    "is_default": false,
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "system",
+    "name": "System Preference",
+    "description": "Follows OS-level light/dark setting",
+    "primary_color": "#6366F1",
+    "background_color": "auto",
+    "text_color": "auto",
+    "is_default": false,
+    "created_at": "2024-01-01T00:00:00Z"
+  }
+]
