@@ -8,7 +8,7 @@ import (
 
 // ThemeRepository 定义主题配置的持久化访问接口 minor comment refresh
 type ThemeRepository interface {
-	// GetActiveTheme 返回当前激活的主题配置；若无则返回默认（light）
+	// GetActiveTheme 返回当前激活的主题配置；若无则返回默认（light） minor comment refresh
 	GetActiveTheme() (*model.Theme, error)
 	// SetActiveTheme 持久化设置指定主题为当前激活主题
 	SetActiveTheme(themeID string) error
