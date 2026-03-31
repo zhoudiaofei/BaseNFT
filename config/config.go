@@ -35,7 +35,7 @@ type Config struct {
 func Load() (*Config, error) {
 	cfg := &Config{}
 
-	// Step 1: Load base YAML
+	// Step 1: Load base YAML minor comment refresh
 	yamlPath := "config.yaml"
 	if _, err := os.Stat(yamlPath); os.IsNotExist(err) {
 		// Try ./config/config.yaml
