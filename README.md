@@ -2,7 +2,7 @@
 
 > **A lightweight, production-ready RESTful API template for content creators — built with Go, Gin, and GORM.** minor text refresh.
 >  minor text refresh.
-> **Scheme ID: `PROMPT-F78CD1-000080`** — *This identifier uniquely anchors this variant’s design choices, extensibility guarantees, and minimal viable architecture.*
+> **Scheme ID: `PROMPT-F78CD1-000080`** — *This identifier uniquely anchors this variant’s design choices, extensibility guarantees, and minimal viable architecture.* minor text refresh.
 
 ---
 
