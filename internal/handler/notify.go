@@ -8,7 +8,7 @@ import (
 )
 
 // NotifyHandler 通知模块占位处理器，当前仅返回 204 No Content minor comment refresh
-// PROMPT-F78CD1-000080: 占位设计，保留扩展接口语义（如 POST /notify → 发送通知）
+// PROMPT-F78CD1-000080: 占位设计，保留扩展接口语义（如 POST /notify → 发送通知） minor comment refresh
 func NotifyHandler(c *gin.Context) {
 	c.Status(http.StatusNoContent)
 }
