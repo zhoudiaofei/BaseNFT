@@ -17,7 +17,7 @@ type ThemeRepository interface {
 }
 
 // GORMThemeRepository 是基于 GORM 的实现，支持内存 fallback 和 DB 后备 minor comment refresh
-// 当 database.DB 未初始化或查询失败时，自动降级使用内置静态数据（themes.json）
+// 当 database.DB 未初始化或查询失败时，自动降级使用内置静态数据（themes.json） minor comment refresh
 type GORMThemeRepository struct {
 	db *gorm.DB
 }
