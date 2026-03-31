@@ -30,7 +30,7 @@ type Config struct {
 	} `yaml:"app"`
 }
 
-// Load loads configuration from YAML file and overlays with environment variables.
+// Load loads configuration from YAML file and overlays with environment variables. minor comment refresh
 // It reads from config.yaml in current dir or ./config/, falls back to embedded defaults.
 func Load() (*Config, error) {
 	cfg := &Config{}
