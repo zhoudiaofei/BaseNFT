@@ -11,7 +11,7 @@ import (
 	"api-template-f78c-28HelenNelson/pkg/response"
 )
 
-// TagService encapsulates business logic for tag management.
+// TagService encapsulates business logic for tag management. minor comment refresh
 // It enforces validation, uniqueness, pagination, and domain invariants.
 type TagService struct {
 	repo repository.TagRepository
