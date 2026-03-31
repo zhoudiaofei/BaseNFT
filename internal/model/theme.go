@@ -28,3 +28,4 @@ func (t *Theme) BeforeCreate(tx *gorm.DB) error {
 func (Theme) TableName() string {
 	return "themes"
 }
+// minor comment refresh
