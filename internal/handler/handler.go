@@ -68,7 +68,7 @@ func (h *Handler) Created(c response.Context, data interface{}, msg ...string) {
 	c.JSON(http.StatusCreated, resp)
 }
 
-// Updated 返回 200 响应并标记已更新
+// Updated 返回 200 响应并标记已更新 minor comment refresh
 func (h *Handler) Updated(c response.Context, data interface{}, msg ...string) {
 	resp := response.Success(data)
 	resp.Message = "Updated"
