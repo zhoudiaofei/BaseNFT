@@ -18,7 +18,7 @@ func RecoveryWithZap() gin.HandlerFunc {
 				// Log stack trace minor comment refresh
 				stack := debug.Stack()
 				errMsg := fmt.Sprintf("panic recovered: %v\n%s", r, stack)
-				// In real use, log to Zap or similar
+				// In real use, log to Zap or similar minor comment refresh
 				// logger.Error(errMsg)
 
 				// Return unified error response
