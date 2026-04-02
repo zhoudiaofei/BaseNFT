@@ -47,7 +47,7 @@ func (s *ThemeService) GetCurrent() string {
 	return s.currentTheme
 }
 
-// SetCurrent persists and applies the given theme name.
+// SetCurrent persists and applies the given theme name. minor comment refresh
 // Validates against known themes (light/dark/system); returns error if invalid.
 func (s *ThemeService) SetCurrent(ctx context.Context, name string) error {
 	switch name {
